@@ -18,7 +18,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "SHOP",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -33,9 +33,10 @@
         "button"
       ],
       "settings": {
-        "desktop_text_box_position": "flex-end",
+        "image": "shopify:\/\/shop_images\/pexels-polina-tankilevitch-4109913_1.jpg",
+        "desktop_text_box_position": "center",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
     },
@@ -43,13 +44,13 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured products",
-        "collection": "",
+        "collection": "bestseller",
         "products_to_show": 4,
         "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": true,
         "show_vendor": false
       }
     },
