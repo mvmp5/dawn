@@ -1,5 +1,6 @@
 {
   "current": {
+    "favicon": "shopify:\/\/shop_images\/Captura_de_pantalla_2021-02-06_a_las_10.06.05_b8a8b7f5-4b76-4ed7-803b-3ff61b151e08.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -9,6 +10,7 @@
       "header": {
         "type": "header",
         "settings": {
+          "logo": "shopify:\/\/shop_images\/Captura_de_pantalla_2021-02-06_a_las_10.06.05_919a3dd0-9ecf-4f8d-9dc5-65aeea1a2c1e.png",
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
