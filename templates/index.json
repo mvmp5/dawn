@@ -33,8 +33,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-polina-tankilevitch-4109913_1.jpg",
-        "desktop_text_box_position": "center",
+        "image": "shopify:\/\/shop_images\/Olivenol_mit_Oliven_al_Andalus_Feinkost_Neu.jpg",
+        "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": false,
         "adapt_height_first_image": false
