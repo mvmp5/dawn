@@ -4,6 +4,28 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "35171cb6-ee3a-4166-a16a-a9c6414dcc56": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "a42a71c8-4b3f-4f00-acb2-d444f01ed413": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "35171cb6-ee3a-4166-a16a-a9c6414dcc56",
+          "a42a71c8-4b3f-4f00-acb2-d444f01ed413"
+        ],
         "settings": {
         }
       },
