@@ -15,6 +15,16 @@
           "settings": {
           }
         },
+        "fdfe746d-7478-4da4-af71-daca5b7893b9": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#93bf53",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "Noch keine Bewertungen"
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -59,20 +69,29 @@
           "settings": {
           }
         },
-        "fdfe746d-7478-4da4-af71-daca5b7893b9": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+        "23ebfcee-c942-4752-bc53-accd3be61cc9": {
+          "type": "collapsible_tab",
           "settings": {
-            "stars_fill_color": "#93bf53",
-            "star_size": 15,
-            "text_align": "center",
-            "product": "{{product}}",
-            "stars_text_empty": "Noch keine Bewertungen"
+            "heading": "Collapsible tab{{ product.title }}",
+            "content": "<p>{{ product.metafields.my_fields.zusatzliche_informationen | metafield_tag }}<\/p>",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
+        "ad469010-fa27-480b-a53e-ce36787f2bfb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "fdfe746d-7478-4da4-af71-daca5b7893b9",
         "subtitle",
         "price",
         "variant_picker",
@@ -81,7 +100,8 @@
         "description",
         "share",
         "3a82adf2-2c60-4120-8645-978f96943ab8",
-        "fdfe746d-7478-4da4-af71-daca5b7893b9"
+        "23ebfcee-c942-4752-bc53-accd3be61cc9",
+        "ad469010-fa27-480b-a53e-ce36787f2bfb"
       ],
       "settings": {
         "enable_sticky_info": false,
