@@ -6,13 +6,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "al Andalus Feinkost"
+            "heading": "FÜR FEINSCHMECKER UND GENIESSE DAS AUTHENTISCHE URLAUBSFEELING ANDALUSIENS DIREKT ZU DIR NACH HAUSE"
           }
         },
         "691951af-b50c-4dd3-bff0-062923cf3eb7": {
           "type": "text",
           "settings": {
-            "text": "Für ein authentisches Andalusien-Erlebnis zuhause bieten wir euch die besten extra nativen Olivenöle und die feinsten Spezialitäten an."
+            "text": "FÜR FEINSCHMECKER UND GENIESSE DAS AUTHENTISCHE URLAUBSFEELING ANDALUSIENS DIREKT ZU DIR NACH HAUSE"
           }
         },
         "button": {
@@ -87,11 +87,88 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
+    },
+    "16316012752caf6b43": {
+      "type": "image-with-text",
+      "blocks": {
+        "16316012752caf6b43-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "16316012752caf6b43-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16316012752caf6b43-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16316012752caf6b43-0",
+        "16316012752caf6b43-1",
+        "16316012752caf6b43-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16316014010561e4d5": {
+      "type": "multicolumn",
+      "blocks": {
+        "16316014010561e4d5-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16316014010561e4d5-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "16316014010561e4d5-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16316014010561e4d5-0",
+        "16316014010561e4d5-1",
+        "16316014010561e4d5-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "16316012752caf6b43",
+    "16316014010561e4d5"
   ]
 }
